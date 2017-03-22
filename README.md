@@ -1,5 +1,5 @@
 ### Description
-Text widget for Android that is animated in a manner that resembles a searchlight
+SearchlightTextView is a text widget for Android that is animated in a manner that resembles a searchlight.
 
 <img src="https://github.com/bmax-moblin/Searchlight/blob/master/demo.gif">
 
