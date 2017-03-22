@@ -81,10 +81,12 @@ public class SearchlightTextView extends AppCompatTextView {
     /** Private methods */
 
     private void readColors(AttributeSet attrs) {
-        TypedArray a = getContext().getTheme()
-                .obtainStyledAttributes(attrs, R.styleable.SearchlightTextView, 0, 0);
-        mCenterColor = a.getColor(R.styleable.SearchlightTextView_centerColor, Color.CYAN);
-        mEdgeColor = a.getColor(R.styleable.SearchlightTextView_edgeColor, Color.BLACK);
+        TypedArray a = getContext().getTheme().obtainStyledAttributes(
+                attrs, R.styleable.SearchlightTextView, 0, 0);
+        mCenterColor = a.getColor(R.styleable.SearchlightTextView_centerColor,
+                Color.CYAN);
+        mEdgeColor = a.getColor(R.styleable.SearchlightTextView_edgeColor,
+                Color.BLACK);
         a.recycle();
     }
 }
