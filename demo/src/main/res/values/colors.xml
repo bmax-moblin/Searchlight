@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Global -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Search Light Text View -->
+    <color name="searchlight_center_color">#ffc6f9e5</color>
+    <color name="searchlight_edge_color">#ff000000</color>
+</resources>
